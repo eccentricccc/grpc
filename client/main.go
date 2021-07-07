@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"grpc/proto"
 	"log"
 	"net/http"
 	"strconv"
+
+	"github.com/eccentricccc/grpc/proto"
 
 	"github.com/gin-gonic/gin"
 	"google.golang.org/grpc"
