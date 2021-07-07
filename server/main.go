@@ -2,8 +2,9 @@ package main
 
 import (
 	"context"
-	"grpc/proto"
 	"net"
+
+	"github.com/eccentricccc/grpc/proto"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
